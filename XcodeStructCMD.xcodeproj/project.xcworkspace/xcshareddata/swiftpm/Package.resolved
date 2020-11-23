@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Base",
+        "repositoryURL": "https://github.com/bretsko/Base",
+        "state": {
+          "branch": null,
+          "revision": "d7f389c4725e18e36fcb98016db355c74f0babbb",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "XcodeExtBase",
+        "repositoryURL": "git@github.com:bretsko/XcodeExtBase.git",
+        "state": {
+          "branch": null,
+          "revision": "53b9fb5f0764c808cec3411a77b55446c0275d09",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
