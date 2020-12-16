@@ -6,7 +6,7 @@
         "repositoryURL": "https://github.com/bretsko/Base",
         "state": {
           "branch": null,
-          "revision": "d7f389c4725e18e36fcb98016db355c74f0babbb",
+          "revision": "235106946fa808e6cc2ff464b959d6a8fce4b2ae",
           "version": "1.0.0"
         }
       },
@@ -15,7 +15,7 @@
         "repositoryURL": "git@github.com:bretsko/XcodeExtBase.git",
         "state": {
           "branch": null,
-          "revision": "53b9fb5f0764c808cec3411a77b55446c0275d09",
+          "revision": "a69fdfe2d51115243463a8ddff35a41250bb7b6a",
           "version": "1.0.0"
         }
       }

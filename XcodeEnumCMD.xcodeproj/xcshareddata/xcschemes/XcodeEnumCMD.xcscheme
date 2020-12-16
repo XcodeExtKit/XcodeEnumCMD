@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0C7B7327256AF92A0018E95D"
-               BuildableName = "XcodeStructCMD.app"
-               BlueprintName = "XcodeStructCMD"
-               ReferencedContainer = "container:XcodeStructCMD.xcodeproj">
+               BuildableName = "XcodeEnumCMD.app"
+               BlueprintName = "XcodeEnumCMD"
+               ReferencedContainer = "container:XcodeEnumCMD.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0C7B7339256AF92E0018E95D"
-               BuildableName = "XcodeStructCMDTests.xctest"
-               BlueprintName = "XcodeStructCMDTests"
-               ReferencedContainer = "container:XcodeStructCMD.xcodeproj">
+               BuildableName = "XcodeEnumCMDTests.xctest"
+               BlueprintName = "XcodeEnumCMDTests"
+               ReferencedContainer = "container:XcodeEnumCMD.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0C7B7327256AF92A0018E95D"
-            BuildableName = "XcodeStructCMD.app"
-            BlueprintName = "XcodeStructCMD"
-            ReferencedContainer = "container:XcodeStructCMD.xcodeproj">
+            BuildableName = "XcodeEnumCMD.app"
+            BlueprintName = "XcodeEnumCMD"
+            ReferencedContainer = "container:XcodeEnumCMD.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0C7B7327256AF92A0018E95D"
-            BuildableName = "XcodeStructCMD.app"
-            BlueprintName = "XcodeStructCMD"
-            ReferencedContainer = "container:XcodeStructCMD.xcodeproj">
+            BuildableName = "XcodeEnumCMD.app"
+            BlueprintName = "XcodeEnumCMD"
+            ReferencedContainer = "container:XcodeEnumCMD.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -11,14 +11,15 @@
 		0C7B732E256AF92A0018E95D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B732D256AF92A0018E95D /* ViewController.swift */; };
 		0C7B7330256AF92D0018E95D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7B732F256AF92D0018E95D /* Assets.xcassets */; };
 		0C7B7333256AF92D0018E95D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7B7331256AF92D0018E95D /* Main.storyboard */; };
-		0C7B733F256AF92E0018E95D /* XcodeStructCMDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B733E256AF92E0018E95D /* XcodeStructCMDTests.swift */; };
-		0C7B736D256AF9590018E95D /* Struct.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0C7B735E256AF9590018E95D /* Struct.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0C7B733F256AF92E0018E95D /* XcodeEnumCMDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B733E256AF92E0018E95D /* XcodeEnumCMDTests.swift */; };
+		0C7B736D256AF9590018E95D /* Enum.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0C7B735E256AF9590018E95D /* Enum.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0C7B737B256AF9B10018E95D /* XcodeExtBase in Frameworks */ = {isa = PBXBuildFile; productRef = 0C7B737A256AF9B10018E95D /* XcodeExtBase */; };
+		0C7B7388256AFA0E0018E95D /* SwitchEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B7382256AFA0E0018E95D /* SwitchEnum.swift */; };
 		0C7B7389256AFA0E0018E95D /* XCBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B7384256AFA0E0018E95D /* XCBuffer.swift */; };
 		0C7B738A256AFA0E0018E95D /* XCInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B7385256AFA0E0018E95D /* XCInvocation.swift */; };
 		0C7B738B256AFA0E0018E95D /* BaseCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B7386256AFA0E0018E95D /* BaseCommand.swift */; };
+		0C7B738C256AFA0E0018E95D /* EnumSwitchCommandP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B7387256AFA0E0018E95D /* EnumSwitchCommandP.swift */; };
 		0C7B7397256AFA430018E95D /* XcodeExtBase in Frameworks */ = {isa = PBXBuildFile; productRef = 0C7B7396256AFA430018E95D /* XcodeExtBase */; };
-		0C8AFE11256BB74500DF0CF1 /* MakeInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8AFE10256BB74500DF0CF1 /* MakeInit.swift */; };
 		0CD02217256AFCEF00FCE2B3 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7B7362256AF9590018E95D /* XcodeKit.framework */; };
 		0CD02218256AFCEF00FCE2B3 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7B7362256AF9590018E95D /* XcodeKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -47,7 +48,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				0C7B736D256AF9590018E95D /* Struct.appex in Embed App Extensions */,
+				0C7B736D256AF9590018E95D /* Enum.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,25 +67,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0C059FDE256BB9E50055E2D1 /* Struct.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Struct.entitlements; sourceTree = "<group>"; };
-		0C7B7328256AF92A0018E95D /* XcodeStructCMD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeStructCMD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7B7328256AF92A0018E95D /* XcodeEnumCMD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeEnumCMD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7B732B256AF92A0018E95D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C7B732D256AF92A0018E95D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0C7B732F256AF92D0018E95D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C7B7332256AF92D0018E95D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C7B7334256AF92D0018E95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C7B7335256AF92D0018E95D /* XcodeEnumCMD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XcodeEnumCMD.entitlements; sourceTree = "<group>"; };
-		0C7B733A256AF92E0018E95D /* XcodeStructCMDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeStructCMDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C7B733E256AF92E0018E95D /* XcodeStructCMDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeStructCMDTests.swift; sourceTree = "<group>"; };
+		0C7B733A256AF92E0018E95D /* XcodeEnumCMDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeEnumCMDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7B733E256AF92E0018E95D /* XcodeEnumCMDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeEnumCMDTests.swift; sourceTree = "<group>"; };
 		0C7B7340256AF92E0018E95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C7B735E256AF9590018E95D /* Struct.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Struct.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7B735E256AF9590018E95D /* Enum.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Enum.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7B7360256AF9590018E95D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0C7B7362256AF9590018E95D /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
 		0C7B7369256AF9590018E95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C7B736A256AF9590018E95D /* XcodeEnumCMDExt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XcodeEnumCMDExt.entitlements; sourceTree = "<group>"; };
+		0C7B7382256AFA0E0018E95D /* SwitchEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchEnum.swift; sourceTree = "<group>"; };
 		0C7B7384256AFA0E0018E95D /* XCBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCBuffer.swift; sourceTree = "<group>"; };
 		0C7B7385256AFA0E0018E95D /* XCInvocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCInvocation.swift; sourceTree = "<group>"; };
 		0C7B7386256AFA0E0018E95D /* BaseCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCommand.swift; sourceTree = "<group>"; };
-		0C8AFE10256BB74500DF0CF1 /* MakeInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeInit.swift; sourceTree = "<group>"; };
+		0C7B7387256AFA0E0018E95D /* EnumSwitchCommandP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumSwitchCommandP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +120,9 @@
 		0C7B731F256AF9290018E95D = {
 			isa = PBXGroup;
 			children = (
-				0C7B732A256AF92A0018E95D /* XcodeStructCMD */,
-				0C7B733D256AF92E0018E95D /* XcodeStructCMDTests */,
-				0C7B7364256AF9590018E95D /* XcodeStructCMDExt */,
+				0C7B732A256AF92A0018E95D /* XcodeEnumCMD */,
+				0C7B733D256AF92E0018E95D /* XcodeEnumCMDTests */,
+				0C7B7364256AF9590018E95D /* XcodeEnumCMDExt */,
 				0C7B735F256AF9590018E95D /* Frameworks */,
 				0C7B7329256AF92A0018E95D /* Products */,
 			);
@@ -129,14 +131,14 @@
 		0C7B7329256AF92A0018E95D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C7B7328256AF92A0018E95D /* XcodeStructCMD.app */,
-				0C7B733A256AF92E0018E95D /* XcodeStructCMDTests.xctest */,
-				0C7B735E256AF9590018E95D /* Struct.appex */,
+				0C7B7328256AF92A0018E95D /* XcodeEnumCMD.app */,
+				0C7B733A256AF92E0018E95D /* XcodeEnumCMDTests.xctest */,
+				0C7B735E256AF9590018E95D /* Enum.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0C7B732A256AF92A0018E95D /* XcodeStructCMD */ = {
+		0C7B732A256AF92A0018E95D /* XcodeEnumCMD */ = {
 			isa = PBXGroup;
 			children = (
 				0C7B732B256AF92A0018E95D /* AppDelegate.swift */,
@@ -146,16 +148,16 @@
 				0C7B7334256AF92D0018E95D /* Info.plist */,
 				0C7B7335256AF92D0018E95D /* XcodeEnumCMD.entitlements */,
 			);
-			path = XcodeStructCMD;
+			path = XcodeEnumCMD;
 			sourceTree = "<group>";
 		};
-		0C7B733D256AF92E0018E95D /* XcodeStructCMDTests */ = {
+		0C7B733D256AF92E0018E95D /* XcodeEnumCMDTests */ = {
 			isa = PBXGroup;
 			children = (
-				0C7B733E256AF92E0018E95D /* XcodeStructCMDTests.swift */,
+				0C7B733E256AF92E0018E95D /* XcodeEnumCMDTests.swift */,
 				0C7B7340256AF92E0018E95D /* Info.plist */,
 			);
-			path = XcodeStructCMDTests;
+			path = XcodeEnumCMDTests;
 			sourceTree = "<group>";
 		};
 		0C7B735F256AF9590018E95D /* Frameworks */ = {
@@ -167,15 +169,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0C7B7364256AF9590018E95D /* XcodeStructCMDExt */ = {
+		0C7B7364256AF9590018E95D /* XcodeEnumCMDExt */ = {
 			isa = PBXGroup;
 			children = (
-				0C059FDE256BB9E50055E2D1 /* Struct.entitlements */,
-				0C8AFE10256BB74500DF0CF1 /* MakeInit.swift */,
+				0C7B7387256AFA0E0018E95D /* EnumSwitchCommandP.swift */,
+				0C7B7382256AFA0E0018E95D /* SwitchEnum.swift */,
 				0C7B7383256AFA0E0018E95D /* XcodeExtBase+XCodeKit */,
 				0C7B7369256AF9590018E95D /* Info.plist */,
+				0C7B736A256AF9590018E95D /* XcodeEnumCMDExt.entitlements */,
 			);
-			path = XcodeStructCMDExt;
+			path = XcodeEnumCMDExt;
 			sourceTree = "<group>";
 		};
 		0C7B7383256AFA0E0018E95D /* XcodeExtBase+XCodeKit */ = {
@@ -191,9 +194,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C7B7327256AF92A0018E95D /* XcodeStructCMD */ = {
+		0C7B7327256AF92A0018E95D /* XcodeEnumCMD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C7B734E256AF92E0018E95D /* Build configuration list for PBXNativeTarget "XcodeStructCMD" */;
+			buildConfigurationList = 0C7B734E256AF92E0018E95D /* Build configuration list for PBXNativeTarget "XcodeEnumCMD" */;
 			buildPhases = (
 				0C7B7324256AF92A0018E95D /* Sources */,
 				0C7B7325256AF92A0018E95D /* Frameworks */,
@@ -205,17 +208,17 @@
 			dependencies = (
 				0C7B736C256AF9590018E95D /* PBXTargetDependency */,
 			);
-			name = XcodeStructCMD;
+			name = XcodeEnumCMD;
 			packageProductDependencies = (
 				0C7B737A256AF9B10018E95D /* XcodeExtBase */,
 			);
 			productName = XcodeEnumCMD;
-			productReference = 0C7B7328256AF92A0018E95D /* XcodeStructCMD.app */;
+			productReference = 0C7B7328256AF92A0018E95D /* XcodeEnumCMD.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0C7B7339256AF92E0018E95D /* XcodeStructCMDTests */ = {
+		0C7B7339256AF92E0018E95D /* XcodeEnumCMDTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C7B7351256AF92E0018E95D /* Build configuration list for PBXNativeTarget "XcodeStructCMDTests" */;
+			buildConfigurationList = 0C7B7351256AF92E0018E95D /* Build configuration list for PBXNativeTarget "XcodeEnumCMDTests" */;
 			buildPhases = (
 				0C7B7336256AF92E0018E95D /* Sources */,
 				0C7B7337256AF92E0018E95D /* Frameworks */,
@@ -226,14 +229,14 @@
 			dependencies = (
 				0C7B733C256AF92E0018E95D /* PBXTargetDependency */,
 			);
-			name = XcodeStructCMDTests;
+			name = XcodeEnumCMDTests;
 			productName = XcodeEnumCMDTests;
-			productReference = 0C7B733A256AF92E0018E95D /* XcodeStructCMDTests.xctest */;
+			productReference = 0C7B733A256AF92E0018E95D /* XcodeEnumCMDTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0C7B735D256AF9590018E95D /* XcodeStructCMDExt */ = {
+		0C7B735D256AF9590018E95D /* XcodeEnumCMDExt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C7B736E256AF9590018E95D /* Build configuration list for PBXNativeTarget "XcodeStructCMDExt" */;
+			buildConfigurationList = 0C7B736E256AF9590018E95D /* Build configuration list for PBXNativeTarget "XcodeEnumCMDExt" */;
 			buildPhases = (
 				0C7B735A256AF9590018E95D /* Sources */,
 				0C7B735B256AF9590018E95D /* Frameworks */,
@@ -244,12 +247,12 @@
 			);
 			dependencies = (
 			);
-			name = XcodeStructCMDExt;
+			name = XcodeEnumCMDExt;
 			packageProductDependencies = (
 				0C7B7396256AFA430018E95D /* XcodeExtBase */,
 			);
 			productName = XcodeEnumCMDExt;
-			productReference = 0C7B735E256AF9590018E95D /* Struct.appex */;
+			productReference = 0C7B735E256AF9590018E95D /* Enum.appex */;
 			productType = "com.apple.product-type.xcode-extension";
 		};
 /* End PBXNativeTarget section */
@@ -274,7 +277,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0C7B7323256AF92A0018E95D /* Build configuration list for PBXProject "XcodeStructCMD" */;
+			buildConfigurationList = 0C7B7323256AF92A0018E95D /* Build configuration list for PBXProject "XcodeEnumCMD" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -290,9 +293,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C7B7327256AF92A0018E95D /* XcodeStructCMD */,
-				0C7B7339256AF92E0018E95D /* XcodeStructCMDTests */,
-				0C7B735D256AF9590018E95D /* XcodeStructCMDExt */,
+				0C7B7327256AF92A0018E95D /* XcodeEnumCMD */,
+				0C7B7339256AF92E0018E95D /* XcodeEnumCMDTests */,
+				0C7B735D256AF9590018E95D /* XcodeEnumCMDExt */,
 			);
 		};
 /* End PBXProject section */
@@ -337,7 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C7B733F256AF92E0018E95D /* XcodeStructCMDTests.swift in Sources */,
+				0C7B733F256AF92E0018E95D /* XcodeEnumCMDTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,10 +348,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C8AFE11256BB74500DF0CF1 /* MakeInit.swift in Sources */,
 				0C7B738A256AFA0E0018E95D /* XCInvocation.swift in Sources */,
 				0C7B7389256AFA0E0018E95D /* XCBuffer.swift in Sources */,
 				0C7B738B256AFA0E0018E95D /* BaseCommand.swift in Sources */,
+				0C7B7388256AFA0E0018E95D /* SwitchEnum.swift in Sources */,
+				0C7B738C256AFA0E0018E95D /* EnumSwitchCommandP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,12 +361,12 @@
 /* Begin PBXTargetDependency section */
 		0C7B733C256AF92E0018E95D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0C7B7327256AF92A0018E95D /* XcodeStructCMD */;
+			target = 0C7B7327256AF92A0018E95D /* XcodeEnumCMD */;
 			targetProxy = 0C7B733B256AF92E0018E95D /* PBXContainerItemProxy */;
 		};
 		0C7B736C256AF9590018E95D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0C7B735D256AF9590018E95D /* XcodeStructCMDExt */;
+			target = 0C7B735D256AF9590018E95D /* XcodeEnumCMDExt */;
 			targetProxy = 0C7B736B256AF9590018E95D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -500,16 +504,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = XcodeEnumCMD/XcodeEnumCMD.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2SSXL2WVNB;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/XcodeStructCMD/Info.plist";
+				INFOPLIST_FILE = XcodeEnumCMD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bretsko.XcodeStructCMD;
+				PRODUCT_BUNDLE_IDENTIFIER = bretsko.XcodeEnumCMD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -521,16 +526,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = XcodeEnumCMD/XcodeEnumCMD.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2SSXL2WVNB;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/XcodeStructCMD/Info.plist";
+				INFOPLIST_FILE = XcodeEnumCMD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bretsko.XcodeStructCMD;
+				PRODUCT_BUNDLE_IDENTIFIER = bretsko.XcodeEnumCMD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -554,7 +560,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = bretsko.XcodeEnumCMDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcodeStructCMD.app/Contents/MacOS/XcodeStructCMD";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcodeEnumCMD.app/Contents/MacOS/XcodeEnumCMD";
 			};
 			name = Debug;
 		};
@@ -576,7 +582,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = bretsko.XcodeEnumCMDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcodeStructCMD.app/Contents/MacOS/XcodeStructCMD";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcodeEnumCMD.app/Contents/MacOS/XcodeEnumCMD";
 			};
 			name = Release;
 		};
@@ -584,19 +590,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = XcodeStructCMDExt/Struct.entitlements;
+				CODE_SIGN_ENTITLEMENTS = XcodeEnumCMDExt/XcodeEnumCMDExt.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2SSXL2WVNB;
 				ENABLE_HARDENED_RUNTIME = NO;
-				INFOPLIST_FILE = "$(SRCROOT)/XcodeStructCMDExt/Info.plist";
+				INFOPLIST_FILE = XcodeEnumCMDExt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bretsko.XcodeStructCMD.XcodeStructCMDExt;
-				PRODUCT_NAME = Struct;
+				PRODUCT_BUNDLE_IDENTIFIER = bretsko.XcodeEnumCMD.XcodeEnumCMDExt;
+				PRODUCT_NAME = Enum;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -607,19 +613,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = XcodeStructCMDExt/Struct.entitlements;
+				CODE_SIGN_ENTITLEMENTS = XcodeEnumCMDExt/XcodeEnumCMDExt.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2SSXL2WVNB;
 				ENABLE_HARDENED_RUNTIME = NO;
-				INFOPLIST_FILE = "$(SRCROOT)/XcodeStructCMDExt/Info.plist";
+				INFOPLIST_FILE = XcodeEnumCMDExt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bretsko.XcodeStructCMD.XcodeStructCMDExt;
-				PRODUCT_NAME = Struct;
+				PRODUCT_BUNDLE_IDENTIFIER = bretsko.XcodeEnumCMD.XcodeEnumCMDExt;
+				PRODUCT_NAME = Enum;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -628,7 +634,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C7B7323256AF92A0018E95D /* Build configuration list for PBXProject "XcodeStructCMD" */ = {
+		0C7B7323256AF92A0018E95D /* Build configuration list for PBXProject "XcodeEnumCMD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C7B734C256AF92E0018E95D /* Debug */,
@@ -637,7 +643,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C7B734E256AF92E0018E95D /* Build configuration list for PBXNativeTarget "XcodeStructCMD" */ = {
+		0C7B734E256AF92E0018E95D /* Build configuration list for PBXNativeTarget "XcodeEnumCMD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C7B734F256AF92E0018E95D /* Debug */,
@@ -646,7 +652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C7B7351256AF92E0018E95D /* Build configuration list for PBXNativeTarget "XcodeStructCMDTests" */ = {
+		0C7B7351256AF92E0018E95D /* Build configuration list for PBXNativeTarget "XcodeEnumCMDTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C7B7352256AF92E0018E95D /* Debug */,
@@ -655,7 +661,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C7B736E256AF9590018E95D /* Build configuration list for PBXNativeTarget "XcodeStructCMDExt" */ = {
+		0C7B736E256AF9590018E95D /* Build configuration list for PBXNativeTarget "XcodeEnumCMDExt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C7B736F256AF9590018E95D /* Debug */,

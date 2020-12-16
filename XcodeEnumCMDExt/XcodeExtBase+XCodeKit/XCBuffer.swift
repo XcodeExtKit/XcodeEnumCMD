@@ -32,19 +32,17 @@ public extension XCBuffer {
         (selections.lastObject as? XCRange)?.end.line
     }
     
-    var selectedLineIndexes: [Int]? {
+    var selectedLineIndexes: Set<Int>? {
         
-        var r: [Int] = []
+        var arrays = [Int]()
         selections.forEach { rng in
             
             guard let rng = rng as? XCRange else {
                 preconditionFailure()
             }
-            (rng.start.line...rng.end.line).forEach { lineNumber in
-                r.append(lineNumber)
-            }
+            arrays += Array(rng.start.line...rng.end.line)
         }
-        return r.sth
+        return arrays.compactMap{$0}.sth?.set
     }
     
     /// returns selected lines (if any), trimmed from newLines and spaces, in line order
@@ -52,7 +50,7 @@ public extension XCBuffer {
         guard let rng = selectedRange else {
             return nil
         }
-        return lines(in: rng).map{$0.trimmingNewlinesAndSpaces}
+        return lines(in: rng).map{$0.trimmingSpacesAndNewlines}
     }
     
     var selectedRange: NSRange? {

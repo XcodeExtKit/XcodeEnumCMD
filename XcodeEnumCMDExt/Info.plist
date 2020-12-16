@@ -30,11 +30,19 @@
 			<array>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).MakeInit</string>
+					<string>$(PRODUCT_MODULE_NAME).SwitchEnum</string>
 					<key>XCSourceEditorCommandIdentifier</key>
-					<string>$(PRODUCT_BUNDLE_IDENTIFIER).make-init</string>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).switch-enum</string>
 					<key>XCSourceEditorCommandName</key>
-					<string>Make Initializer</string>
+					<string>Switch Enum</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SwitchEnumWithValue</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).switch-enum-with-value</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Switch Enum With Value</string>
 				</dict>
 			</array>
 			<key>XCSourceEditorExtensionPrincipalClass</key>
